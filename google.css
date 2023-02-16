@@ -1,0 +1,86 @@
+body
+{
+    background-color:white;
+}
+#gi{
+    position: absolute;
+    top: 2%;
+    right: 2%;
+    
+
+}
+.textlogo{
+    text-align: center;
+    font-size: 600%;
+    position: absolute;
+    top: 15%;
+    left: 40%;       
+    transition: 0.7s;
+    
+    
+
+}
+.textlogo span{
+    animation: text 2s 1;
+    
+}
+.input-icons i {
+    position: absolute;
+    width: 50px;
+    padding-top: 16px;
+    padding-left: 14px;
+}
+  
+.input-icons {
+    width:600px;
+    height: 50px;
+    margin-bottom: 10px;
+    position: absolute;
+    top: 41%;
+    left: 31%;
+    border: 2px black solid;
+    border-radius: 200px;
+    
+}
+  
+.icon {
+    padding: 10px;
+    min-width: 40px;
+}
+  
+.input-fields {
+    width: 100%;
+    height: 100%;
+    padding:10px;
+    text-align: center;
+    border: 2px black solid;
+    border-radius: 200px;
+}
+
+@keyframes text {
+    0% {
+         letter-spacing: 10px;  
+    }
+
+    30% {
+        letter-spacing: 50px;
+        
+    }
+
+    85% {
+        letter-spacing: 10px;
+        
+    }
+
+}
+.grid-container{
+    position: absolute;
+    top: 55%;
+    left: 33%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    column-gap: 170px;
+    row-gap: 70px;
+
+}
